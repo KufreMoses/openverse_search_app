@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(51, 51, 51, 0.8); /* Added opacity to make nav readable over the image */
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight background for readability */
+    border-radius: 10px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 300px;
+}
+
+form button {
+    padding: 0.5em 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1em;
+}
+
+.media-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5em;
+}
+
+.media-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.media-preview {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+    max-height: 200px;
+}
+
+.media-title {
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.media-creator {
+    font-size: 0.9em;
+    color: #555;
+}
